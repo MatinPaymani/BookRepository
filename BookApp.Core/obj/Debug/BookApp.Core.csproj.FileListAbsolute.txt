@@ -1,0 +1,11 @@
+C:\Users\matin\Desktop\Repository\BookRepository\BookApp.Core\bin\Debug\BookApp.Core.dll.config
+C:\Users\matin\Desktop\Repository\BookRepository\BookApp.Core\bin\Debug\BookApp.Core.dll
+C:\Users\matin\Desktop\Repository\BookRepository\BookApp.Core\bin\Debug\BookApp.Core.pdb
+C:\Users\matin\Desktop\Repository\BookRepository\BookApp.Core\bin\Debug\EntityFramework.dll
+C:\Users\matin\Desktop\Repository\BookRepository\BookApp.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\matin\Desktop\Repository\BookRepository\BookApp.Core\bin\Debug\EntityFramework.xml
+C:\Users\matin\Desktop\Repository\BookRepository\BookApp.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\matin\Desktop\Repository\BookRepository\BookApp.Core\obj\Debug\BookApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\matin\Desktop\Repository\BookRepository\BookApp.Core\obj\Debug\BookApp.Core.dll
+C:\Users\matin\Desktop\Repository\BookRepository\BookApp.Core\obj\Debug\BookApp.Core.pdb
+C:\Users\matin\Desktop\Repository\BookRepository\BookApp.Core\obj\Debug\BookApp.Core.csprojResolveAssemblyReference.cache

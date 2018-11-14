@@ -1,0 +1,30 @@
+﻿@model BookApp.Core.Phone
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DeletePhone</title>
+	@Html.Partial("_LinkPartial")
+</head>
+<body>
+	
+    <div class=" container">
+		<h1>Are you sure you want to delete @Html.DisplayFor(model => model.PhoneNumber) from Your PhoneBook?</h1> 
+  <h2>@Html.DisplayFor(model => model.Person.FullName.FirstName)</h2>  
+        @using (Html.BeginForm()) {
+            @Html.AntiForgeryToken()
+    
+            <div class="form-actions no-color">
+                <input type="submit" value="DeletePhone" class="btn btn-default" /> |
+                @Html.ActionLink("Back to List", "Index")
+            </div>
+        }
+    </div>
+</body>
+</html>

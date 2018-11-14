@@ -1,0 +1,15 @@
+C:\Users\matin\Desktop\Repository\BookRepository\BookApp.Infrastructure\bin\Debug\BookApp.Infrastructure.dll.config
+C:\Users\matin\Desktop\Repository\BookRepository\BookApp.Infrastructure\bin\Debug\BookApp.Infrastructure.dll
+C:\Users\matin\Desktop\Repository\BookRepository\BookApp.Infrastructure\bin\Debug\BookApp.Infrastructure.pdb
+C:\Users\matin\Desktop\Repository\BookRepository\BookApp.Infrastructure\bin\Debug\BookApp.Core.dll
+C:\Users\matin\Desktop\Repository\BookRepository\BookApp.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Users\matin\Desktop\Repository\BookRepository\BookApp.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\matin\Desktop\Repository\BookRepository\BookApp.Infrastructure\bin\Debug\BookApp.Core.pdb
+C:\Users\matin\Desktop\Repository\BookRepository\BookApp.Infrastructure\bin\Debug\BookApp.Core.dll.config
+C:\Users\matin\Desktop\Repository\BookRepository\BookApp.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Users\matin\Desktop\Repository\BookRepository\BookApp.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\matin\Desktop\Repository\BookRepository\BookApp.Infrastructure\obj\Debug\BookApp.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\matin\Desktop\Repository\BookRepository\BookApp.Infrastructure\obj\Debug\BookApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\matin\Desktop\Repository\BookRepository\BookApp.Infrastructure\obj\Debug\BookApp.Infrastructure.dll
+C:\Users\matin\Desktop\Repository\BookRepository\BookApp.Infrastructure\obj\Debug\BookApp.Infrastructure.pdb
+C:\Users\matin\Desktop\Repository\BookRepository\BookApp.Infrastructure\bin\Debug\System.Linq.Dynamic.dll

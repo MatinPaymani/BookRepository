@@ -1,0 +1,42 @@
+﻿@model IEnumerable<BookApp.Core.ViewModels.PhoneBookViewModel>
+@{
+	Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<title>PhoneBook</title>
+	@Html.Partial("_ScriptPartial")
+	@Html.Partial("_LinkPartial")
+
+
+</head>
+<body>
+	<div class="container" id="contact-list-page">
+		<br />
+		<hr />
+		@Html.ActionLink("Create New Contact", "Create")
+		<table id="contactsList" class="table  table-condensed table-hover table-striped">
+			<thead>
+				<tr>
+					<th data-column-id="PersonId" data-identifier="true">Id</th>
+					<th data-column-id="FirstName" data-order="desc">First Name</th>
+					<th data-column-id="LastName" data-order="desc">Last Name</th>
+					<th data-column-id="Street" data-order="desc">Street Name</th>
+					<th data-column-id="PostNumber" data-order="desc">Zip code</th>
+					<th data-column-id="commands" data-formatter="commands" data-sortable="false">Commands</th>
+
+				</tr>
+			</thead>
+		</table>
+
+		@Html.Partial("~/Views/PhoneBook/_ModalDeletePerson.cshtml")
+		@Html.Partial("~/Views/PhoneBook/_ModalPhones.cshtml")
+
+	</div>
+
+</body>
+</html>
+
+

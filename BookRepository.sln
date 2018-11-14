@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookApp.Core", "BookApp.Core\BookApp.Core.csproj", "{2DF7207C-F738-4202-BDC5-0CAD0C14EF1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookApp.Infrastructure", "BookApp.Infrastructure\BookApp.Infrastructure.csproj", "{866637C6-D670-497F-BBB9-667C619E463D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookApp.Web", "BookApp.Web\BookApp.Web.csproj", "{711C553E-8805-4878-A24F-AF38254F66B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookApp.UnitTest", "UnitTest\BookApp.UnitTest.csproj", "{AC1F547F-E1F4-439D-B5AF-1D8B3957B18B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3077FC9C-1077-4E01-B4DF-494E3A18DA9F}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DF7207C-F738-4202-BDC5-0CAD0C14EF1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DF7207C-F738-4202-BDC5-0CAD0C14EF1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DF7207C-F738-4202-BDC5-0CAD0C14EF1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DF7207C-F738-4202-BDC5-0CAD0C14EF1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{866637C6-D670-497F-BBB9-667C619E463D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{866637C6-D670-497F-BBB9-667C619E463D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{866637C6-D670-497F-BBB9-667C619E463D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{866637C6-D670-497F-BBB9-667C619E463D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{711C553E-8805-4878-A24F-AF38254F66B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{711C553E-8805-4878-A24F-AF38254F66B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{711C553E-8805-4878-A24F-AF38254F66B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{711C553E-8805-4878-A24F-AF38254F66B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC1F547F-E1F4-439D-B5AF-1D8B3957B18B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC1F547F-E1F4-439D-B5AF-1D8B3957B18B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC1F547F-E1F4-439D-B5AF-1D8B3957B18B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC1F547F-E1F4-439D-B5AF-1D8B3957B18B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07C356C7-36E9-4201-9C95-3A58B063AF20}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://mazdayadak.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BookApp.Core\\BookApp.Core.csproj
+		SccProjectName1 = BookApp.Core
+		SccLocalPath1 = BookApp.Core
+		SccProjectUniqueName2 = BookApp.Infrastructure\\BookApp.Infrastructure.csproj
+		SccProjectName2 = BookApp.Infrastructure
+		SccLocalPath2 = BookApp.Infrastructure
+		SccProjectUniqueName3 = BookApp.Web\\BookApp.Web.csproj
+		SccProjectName3 = BookApp.Web
+		SccLocalPath3 = BookApp.Web
+		SccProjectUniqueName4 = UnitTest\\BookApp.UnitTest.csproj
+		SccProjectName4 = UnitTest
+		SccLocalPath4 = UnitTest
+	EndGlobalSection
+EndGlobal

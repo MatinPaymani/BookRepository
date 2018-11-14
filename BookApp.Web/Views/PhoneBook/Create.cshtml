@@ -1,0 +1,57 @@
+﻿@model BookApp.Core.ViewModels.CreateContactViewModel
+@{
+	Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<title>Create new Conctract</title>
+	@Html.Partial("_LinkPartial")
+	@Html.Partial("_ScriptPartial")
+
+
+</head>
+<body>
+	<div class="container">
+		<h1>Creat new contact</h1>
+		<label id="errorMessage" class="alert lable-danger"></label>
+
+		<form role="form" id="contacted-form" novalidate>
+			<fieldset>
+				<div class="form-group">
+					<input type="text" class="form-control" id="firstNameField" name="firstNameField" placeholder="First name">
+				</div>
+				<div class="form-group">
+					<input type="text" class="form-control" id="lastNameField" name="lastNameField" placeholder="Last name">
+				</div>
+				<div class="form-group">
+					<input type="text" class="form-control" id="zipField" name="zipField" placeholder="Zip code">
+				</div>
+				<div class="form-group">
+					<input type="number" class="form-control" id="unitField" name="unitField" maxlength="2" placeholder="Unit">
+				</div>
+				<div class="form-group">
+					<input type="text" class="form-control" id="streetField" name="streetField" placeholder="Street">
+				</div>
+				<div class="form-group">
+					<label class="radio-inline">
+						<input type="radio" name="flagField" id="flagField" value="1" checked>Home
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="flagField" id="flagField" value="2">Work
+					</label>
+				</div>
+				<div class="form-group">
+					<input type="text" class="form-control" id="phoneField" name="phoneField" placeholder="Phone">
+				</div>
+
+				<button type="submit" id="btn-contact-submit2" name="submit" class="btn btn-contact-submit  btn-primary btn-orange-link" style="background-color:#E9530D;border:none;">Save</button>
+				<a href="/"  class="btn btn-primary btn-orange-link">Back</a>
+
+			</fieldset>
+		</form>
+
+	</div>
+</body>
+</html>

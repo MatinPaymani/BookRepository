@@ -1,0 +1,56 @@
+﻿
+@model IEnumerable<BookApp.Core.ViewModels.PhoneViewModel>
+@{
+	Layout = null;
+}
+@if (Model.Count() > 0)
+{
+<div>
+	<input type="hidden" id="personIdField1" name="personIdField1" value="@Model.First().PersonId" />
+	<table class="table table-hover">
+		<thead>
+			<tr>
+				<th>PhoneNumber</th>
+				<th>For</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var item in Model)
+			{
+				<tr>
+					<td>@Html.DisplayFor(modelItem => item.PhoneNumber) </td>
+					<td>@Html.DisplayFor(modelItem => item.Flag)</td>
+					<td>
+						<button class="btn btn-xs btn-default command-delete" 
+								data-row-id=@item.PhoneId 
+								id="del-phone"><span class="fa fa-trash-o"></span></button>
+
+					</td>
+				</tr>
+			}
+</tbody>
+</table>
+</div>
+}
+else
+{
+	<h1>no phones!</h1>
+}
+<div>
+	<hr />
+	<button type="button" class="btn btn-outline-dark" id="add-new-phone">Add phone</button>
+	<form role="form" id="new-phone-form" novalidate hidden>
+		<fieldset>
+			<div class="form-group">
+					<input class="radio-inline" type="radio" name="flagField" id="flagField" value="1" checked>Home
+					<input type="radio"  class="radio-inline" name="flagField" id="flagField" value="2">Work
+			</div>
+			<div class="form-group">
+				<input type="text" class="form-control" id="phoneField" name="phoneField" placeholder="Phone">
+			</div>
+			<button type="submit" id="btn-phone-form-submit" name="submit" class="btn btn-contact-submit  btn-primary btn-orange-link">Save</button>
+			<a class="btn btn-primary btn-orange-link" id="cancel-add-phone">Cancel</a>
+		</fieldset>
+	</form>
+	<p id="errorMessage1" class="alert lable-danger"></p>
+</div>
